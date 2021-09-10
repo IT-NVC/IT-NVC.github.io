@@ -1,0 +1,158 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* comon */
+.clear{
+    clear: both;
+}
+.center{
+    text-align: center;
+}
+.mt-8{
+    margin-top: 8px;
+}
+
+/* main */
+#main{
+
+    
+}
+
+.container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #241f36;
+}
+/* begin: header */
+#header{
+    width: 900px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    background-color: #302c40;
+    border-radius: 30px;
+}
+
+#header .avartar{
+    
+}
+
+#header .avartar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 44px;
+}
+
+#header .name{
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+#header .work{
+    margin-top: 8px;
+}
+
+#header .social{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-4%);
+}
+
+
+#header .social a{
+    float: left;
+    text-align: center;
+    letter-spacing: 6px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    
+}    
+#header .social li{
+    transition: 0.4s all;
+}
+
+.social li:hover
+{
+    color: coral;
+}
+
+#header .info{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#header .info li{
+    margin-left: 20px;
+    display: inline;      
+    list-style-type: none;
+    line-height: 28px;
+}
+
+#header .info li i[class*="ti-"]{
+    margin-right: 5px;
+}
+/* End: header */
+
+
+/* begin: content */
+#content{
+    width: 900px;
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    background-color: #302c40;
+}
+
+#content .content-section{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    color: #fff;
+}
+
+#content .AEPD{
+    text-transform: uppercase;
+}
+
+#content .p-public{
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+#AboutMe{
+    
+}
+#AboutMe .AboutMe-content p {
+    padding-right: 30px;
+    text-align: justify;
+    line-height: 1.4;
+}
+#product{
+    
+}

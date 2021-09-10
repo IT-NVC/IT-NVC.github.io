@@ -1,0 +1,40 @@
+/* PC */
+@media (min-width : 961px){
+
+}
+
+
+/* tablet */
+@media (min-width : 740px) and (max-width : 960px){
+    .m-width{
+        width: 700px !important;
+    }
+}
+
+
+/* mobile */
+@media (max-width : 740px){
+    .s-width{
+        width: 100% !important;
+    }
+    #header .social{
+        margin-top: 10px;
+        text-align: center;
+        transform: translateX(-10%);
+    }
+    #header .info{
+        margin-left: 12%;
+        text-align: center;
+    }
+    #header .info li{
+        left: 0 !important;
+        float: left;
+    }
+
+}
+@media (max-width : 320px){
+    #header .info{
+        margin-left: 5% !important;
+        text-align: center;
+    }
+}
